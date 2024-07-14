@@ -33,6 +33,18 @@ describe('getPossibleBanks', () => {
         expect(result).toHaveLength(0);
     });
 
+    it('should include bank code 50515 (Moniepoint)', () => {
+        const result = getPossibleBanks('5522116946');
+        expect(result).toBeInstanceOf(Array);
+        expect(result.some((bank) => bank.code === '50515')).toBe(true);
+    });
+
+    it('should include bank code 999991 (PalmPay)', () => {
+        const result = getPossibleBanks('8106136519');
+        expect(result).toBeInstanceOf(Array);
+        expect(result.some((bank) => bank.code === '999991')).toBe(true);
+    });
+
     it('should include bank code 044 (Access Bank)', () => {
         const result = getPossibleBanks('0010246780');
         expect(result).toBeInstanceOf(Array);
@@ -80,5 +92,4 @@ describe('getPossibleBanks', () => {
         expect(result).toBeInstanceOf(Array);
         expect(result.some((bank) => bank.code === '214')).toBe(true);
     });
-
 });

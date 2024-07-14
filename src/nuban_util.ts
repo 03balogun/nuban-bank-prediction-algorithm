@@ -21,16 +21,16 @@ export const isBankAccountValid = (accountNumber: string, bankCode: string) => {
         throw new Error('Invalid account number, account number must be 10 digits long')
     }
 
-    let paddedBankCode = bankCode.trim()
+    let paddedBankCode = bankCode.replace(/\D/g, '')
 
-    if (bankCode.length === 3) {
-        paddedBankCode = `000${bankCode}`
-    } else if (bankCode.length === 5) {
-        paddedBankCode = `9${bankCode}`
+    if (paddedBankCode.length === 3) {
+        paddedBankCode = `000${paddedBankCode}`
+    } else if (paddedBankCode.length === 5) {
+        paddedBankCode = `9${paddedBankCode}`
     }
 
     if (paddedBankCode.length !== 6) {
-        throw new Error('Invalid bank code, bank code must be 3, 5 or 6 digits long')
+        throw new Error(`Invalid bank code, bank code must be 3, 5 or 6 digits long. ${paddedBankCode} is ${paddedBankCode.length} digits long`)
     }
 
     const serialNumber = accountNumber.substring(0, 9)

@@ -4,7 +4,7 @@ This utility function is designed to predict or identify the bank associated wit
 
 It validates NUBAN account numbers and provides possible banks that could own the account number.
 
-This implementation is based on the Central Bank of Nigeria's [REVISED STANDARDS ON NIGERIA UNIFORM BANK ACCOUNT NUMBER (NUBAN) SCHEME FOR DEPOSIT MONEY BANKS (DMBs) AND OTHER FINANCIAL INSTITUTIONS (OFIs) IN NIGERIA - NOV 2018](https://www.cbn.gov.ng/out/2018/psmd/exposure%20circular%20for%20nuban.pdf).
+This implementation is based on the Central Bank of Nigeria's [REVISED STANDARDS ON NIGERIA UNIFORM BANK ACCOUNT NUMBER (NUBAN) SCHEME FOR DEPOSIT MONEY BANKS (DMBs) AND OTHER FINANCIAL INSTITUTIONS (OFIs) IN NIGERIA - MAR 2020](https://www.cbn.gov.ng/out/2020/psmd/revised%20standards%20on%20nigeria%20uniform%20bank%20account%20number%20(nuban)%20for%20banks%20and%20other%20financial%20institutions%20.pdf).
 
 
 ## Prerequisites
@@ -61,7 +61,6 @@ Output example:
     "name": "First Bank PLC",
     "code": "011"
   }
-  // ... more banks
 ]
 ```
 
@@ -102,6 +101,14 @@ To run the tests, use the following command:
 ```bash
 npm run test
 ```
+
+## Note
+
+Please note that the list of banks provided in this utility is not exhaustive. It is a subset of all the banks available in Nigeria. Depending on your use case, you might need to update the list to include other banks or remove some banks.
+
+You can find a more comprehensive [list of banks in this gist](https://gist.github.com/03balogun/c6386aaea439f18ffabd9892112ef767).
+
+To update the bank list, modify the `BANKS` array in the `src/banks.ts` file. Each bank should be represented as an object with `name` and `code` properties. The `name` is the name of the bank and the `code` is the bank's code as per the CBN standards.
 
 ## Contributing
 

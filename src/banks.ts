@@ -1,137 +1,128 @@
 
-// List of all banks https://gist.github.com/03balogun/c6386aaea439f18ffabd9892112ef767
-
+// Comprehensive list of all banks https://gist.github.com/03balogun/c6386aaea439f18ffabd9892112ef767
 export const BANKS = [
     {
-        code: '044',
-        name: 'Access Bank',
+        "name": "Access Bank",
+        "code": "044"
     },
     {
-        code: '023',
-        name: 'Citi Bank',
+        "name": "Access Bank (Diamond)",
+        "code": "063"
     },
     {
-        code: '050',
-        name: 'EcoBank PLC',
+        "name": "Carbon",
+        "code": "565"
     },
     {
-        code: '011',
-        name: 'First Bank PLC',
+        "name": "Ecobank Nigeria",
+        "code": "050"
     },
     {
-        code: '214',
-        name: 'First City Monument Bank',
+        "name": "Fidelity Bank",
+        "code": "070"
     },
     {
-        code: '070',
-        name: 'Fidelity Bank',
+        "name": "First Bank of Nigeria",
+        "code": "011"
     },
     {
-        code: '058',
-        name: 'Guaranty Trust Bank',
+        "name": "First City Monument Bank",
+        "code": "214"
     },
     {
-        code: '076',
-        name: 'Polaris bank',
+        "name": "Guaranty Trust Bank",
+        "code": "058"
     },
     {
-        code: '221',
-        name: 'Stanbic IBTC Bank',
+        "name": "Jaiz Bank",
+        "code": "301"
     },
     {
-        code: '068',
-        name: 'Standard Chaterted bank PLC',
+        "name": "Keystone Bank",
+        "code": "082"
     },
     {
-        code: '232',
-        name: 'Sterling Bank PLC',
+        "name": "Polaris Bank",
+        "code": "076"
     },
     {
-        code: '033',
-        name: 'United Bank for Africa',
+        "name": "Providus Bank",
+        "code": "101"
     },
     {
-        code: '032',
-        name: 'Union Bank PLC',
+        "name": "Rubies MFB",
+        "code": "125"
     },
     {
-        code: '035',
-        name: 'Wema Bank PLC',
+        "name": "Signature Bank Ltd",
+        "code": "106"
     },
     {
-        code: '057',
-        name: 'Zenith bank PLC',
+        "name": "Stanbic IBTC Bank",
+        "code": "221"
     },
     {
-        code: '215',
-        name: 'Unity Bank PLC',
+        "name": "Standard Chartered Bank",
+        "code": "068"
     },
     {
-        code: '101',
-        name: 'ProvidusBank PLC',
+        "name": "Sterling Bank",
+        "code": "232"
     },
     {
-        code: '082',
-        name: 'Keystone Bank',
+        "name": "Titan Bank",
+        "code": "102"
     },
     {
-        code: '301',
-        name: 'Jaiz Bank',
+        "name": "Union Bank of Nigeria",
+        "code": "032"
     },
     {
-        code: '100',
-        name: 'Suntrust Bank',
+        "name": "United Bank For Africa",
+        "code": "033"
     },
     {
-        code: '608',
-        name: 'FINATRUST MICROFINANCE BANK',
+        "name": "Unity Bank",
+        "code": "215"
     },
     {
-        code: '502',
-        name: 'Rand merchant Bank',
+        "name": "VFD Microfinance Bank Limited",
+        "code": "566"
     },
     {
-        code: '327',
-        name: 'Paga',
+        "name": "Wema Bank",
+        "code": "035"
     },
     {
-        code: '305',
-        name: 'Paycom',
+        "name": "Zenith Bank",
+        "code": "057"
     },
     {
-        code: '303',
-        name: 'ChamsMobile',
+        "name": "OPay Digital Services Limited (OPay)",
+        "code": "999992"
     },
     {
-        code: '090267',
-        name: 'Kuda Banks',
+        "name": "Paga",
+        "code": "100002"
     },
     {
-        code: '090551',
-        name: 'Fairmoney Microfinance Bank Ltd',
+        "name": "PalmPay",
+        "code": "999991"
     },
     {
-        code: '090405',
-        name: 'Moniepoint Microfinance Bank',
+        "name": "Paystack-Titan",
+        "code": "100039"
     },
     {
-        code: '100039',
-        name: 'PAYSTACK-TITAN',
+        "name": "Sparkle Microfinance Bank",
+        "code": "51310"
     },
     {
-        code: '000025',
-        name: 'Titan Trust Bank',
+        "name": "Moniepoint MFB",
+        "code": "50515"
     },
     {
-        code: '000027',
-        name: 'Globus Bank',
-    },
-    {
-        code: '000030',
-        name: 'Parallex Bank',
-    },
-    {
-        code: '100026',
-        name: 'Carbon',
+        "name": "GoMoney",
+        "code": "100022"
     },
 ]
