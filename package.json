@@ -1,0 +1,29 @@
+{
+  "name": "predict-nuban-banks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/getBanks.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "nuban",
+    "cbn",
+    "bank",
+    "predict"
+  ],
+  "author": "Wahab Balogun",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "globals": "^15.8.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
