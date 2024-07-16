@@ -18,8 +18,8 @@ This implementation is based on the Central Bank of Nigeria's [REVISED STANDARDS
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/03balogun/predict-nuban-banks.git
-cd predict-nuban-banks
+git clone https://github.com/03balogun/nuban-bank-prediction-algorithm.git
+cd nuban-bank-prediction-algorithm
 npm install
 ```
 
@@ -109,6 +109,9 @@ Please note that the list of banks provided in this utility is not exhaustive. I
 You can find a more comprehensive [list of banks in this gist](https://gist.github.com/03balogun/c6386aaea439f18ffabd9892112ef767).
 
 To update the bank list, modify the `BANKS` array in the `src/banks.ts` file. Each bank should be represented as an object with `name` and `code` properties. The `name` is the name of the bank and the `code` is the bank's code as per the CBN standards.
+
+## Read More
+NUBAN Bank Suggestion Algorithm: Implementation and Recommendations - [https://03balogun.medium.com/nuban-bank-suggestion-algorithm-implementation-and-recommendations-ac0f13d2ce4c](https://03balogun.medium.com/nuban-bank-suggestion-algorithm-implementation-and-recommendations-ac0f13d2ce4c)
 
 ## Contributing
 
